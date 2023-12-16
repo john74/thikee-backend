@@ -6,13 +6,13 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from base.utils import decrypt_data
-from frontend.utils import (
+from weather.utils import (
     extract_current_weather_data, extract_extra_weather_data,
     extract_hourly_forecasts, extract_weekly_forecasts,
-    group_forecasts_by_day, group_daily_forecasts
+    group_forecasts_by_day, group_daily_forecasts,
+    retrieve_weather_data,
 )
-from frontend.constants import OPEN_WEATHER_UNITS
-from frontend.utils import retrieve_weather_data
+from weather.constants import OPEN_WEATHER_UNITS
 from settings.models import Setting
 
 

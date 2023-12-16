@@ -33,3 +33,8 @@ urlpatterns += [
 urlpatterns += [
     path('api/users/', include('users.urls.users', namespace='users')),
 ]
+
+# weather app
+urlpatterns += [
+    path('api/weather/', include('weather.urls.weather', namespace='weather')),
+]

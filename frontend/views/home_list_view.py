@@ -12,7 +12,7 @@ from bookmarks.serializers import (
 from bookmarks.utils import (
     group_bookmarks, group_bookmark_categories,
 )
-from frontend.utils import retrieve_weather_data
+from weather.utils import retrieve_weather_data
 from search_engines.models import SearchEngine
 from search_engines.serializers import SearchEngineSerializer
 from settings.models import Setting

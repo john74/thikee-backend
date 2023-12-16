@@ -3,12 +3,12 @@ from django.utils import timezone
 import httpx
 
 from base.utils import decrypt_data
-from frontend.utils import (
+from weather.utils import (
     extract_current_weather_data, extract_extra_weather_data,
     extract_hourly_forecasts, extract_weekly_forecasts,
     group_forecasts_by_day, group_daily_forecasts
 )
-from frontend.constants import OPEN_WEATHER_UNITS
+from weather.constants import OPEN_WEATHER_UNITS
 from settings.models import Setting
 
 
