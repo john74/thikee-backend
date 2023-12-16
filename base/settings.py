@@ -118,10 +118,11 @@ AUTH_USER_MODEL = 'users.User'
 
 PROJECT_APPS = [
     'bookmarks.apps.BookmarksConfig',
+    'frontend.apps.FrontendConfig',
     'search_engines.apps.SearchEnginesConfig',
     'settings.apps.SettingsConfig',
     'users.apps.UsersConfig',
-    'frontend.apps.FrontendConfig',
+    'weather.apps.WeatherConfig',
 ]
 
 THIRD_PARTY_APPS = [
