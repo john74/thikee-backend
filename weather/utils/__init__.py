@@ -5,3 +5,4 @@ from .extract_weekly_forecasts import extract_weekly_forecasts
 from .group_forecasts_by_day import group_forecasts_by_day
 from .group_daily_forecasts import group_daily_forecasts
 from .retrieve_weather_data import retrieve_weather_data
+from .get_update_time_message import get_update_time_message
