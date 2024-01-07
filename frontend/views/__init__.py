@@ -1,1 +1,2 @@
 from .home_list_view import HomeListAPIView
+from .settings_list_view import SettingsListAPIView

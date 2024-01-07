@@ -17,6 +17,7 @@ urlpatterns += [
 # frontend app
 urlpatterns += [
     path('api/frontend/', include('frontend.urls.frontend', namespace='frontend')),
+    path('api/frontend/', include('frontend.urls.settings', namespace='user_settings')),
 ]
 
 # search engines app
